@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  font-family: Sans-Serif;
+  background:#333;
+  color: #fff;
+  height: 100vh;
+  margin-top: 7rem;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+.modal-cover{
+  background: #555;
+  max-width: 50rem;
+  margin: 2rem auto;
+  text-align: center;
+  border-radius: .5rem;
+  padding: 1rem 0 2rem 0;
+}
+
+h1{
+  font-size: 3rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.open, .close-btn{
+  background: #fff;
+  color: #222;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5rem;
+  outline: none;
+  transition: .5s;
+}
+
+.open:active{
+  background: #222;
+  color: white;
+}
+
+p{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.modal{
+  width: 32rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #fff;
+  color: #000;
+  padding:0 1rem 1rem 2rem;
+  margin: -25rem auto 0 auto;
+  border-radius: .5rem;
+  z-index: 10;
+  transition: 1s;
+}
+
+.close{
+  float: right;
+  font-size: 3rem;
+}
+
+.modal-content{
+  clear: both;
+}
+
+h3{
+  font-size: 2.5rem;
+}
+
+.modal p{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.close-btn{
+  background: #222;
+  color:#fff;
+  border-radius: .5rem;
+}
