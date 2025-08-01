@@ -1,4 +1,4 @@
-JavaScript Challenge #day4
+JavaScript Challenge #day5
 
 Create a modal pop-up that open when a user clicks a button and also close when a button is clicked 
 
