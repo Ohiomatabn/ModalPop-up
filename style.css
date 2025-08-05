@@ -76,6 +76,10 @@ p{
   font-size: 3rem;
 }
 
+.close:active{
+  border: 1px sololid #222;
+}
+
 .modal-content{
   clear: both;
 }
@@ -93,4 +97,9 @@ h3{
   background: #222;
   color:#fff;
   border-radius: .5rem;
+}
+
+.close-btn:active{
+  background: #fff;
+  color: #222;
 }
